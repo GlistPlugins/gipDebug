@@ -13,8 +13,9 @@ Windows developers must add the following directory to their GlistApp project's 
 
 **To add this:**
 1. Right-click your project -> **Properties**
-2. Navigate to **C/C++ Build -> Environment -> PATH**
-3. Add the path above to the end of your previous PATH variable. 
+2. Navigate to **C/C++ Build -> Environment**
+3. From the Configuration dropdown list, select Debug.
+4. Double click to PATH and add the path above to the end of your previous PATH variable. 
 
 ### 2. Create a Debug Run Configuration
 
