@@ -8,13 +8,13 @@ This repository contains the GDB binary files required for debugging GlistEngine
 
 Windows developers must add the following directory to their GlistApp project's PATH:
 ```
-${workspace_loc}\..\..\..\..\glistplugins\gipDebug\libs\bin
+;${workspace_loc}\..\..\..\..\glistplugins\gipDebug\libs\bin
 ```
 
 **To add this:**
 1. Right-click your project -> **Properties**
 2. Navigate to **C/C++ Build -> Environment -> PATH**
-3. Add the path above to the PATH variable
+3. Add the path above to the end of your previous PATH variable. 
 
 ### 2. Create a Debug Run Configuration
 
